@@ -1,0 +1,32 @@
+:root {
+    // Colors
+    --color-heading: hsl(271, 36%, 24%);
+    --color-subheading: hsl(276, 100%, 81%);
+    --color-text-worker: hsl(276, 55%, 52%);
+    --color-text-client: hsl(271, 15%, 43%);
+    --color-text-placeholder: hsl(206, 6%, 79%);
+    --color-text-paragraph:hsl(270, 7%, 64%);
+
+    --color-gradient-magenta: hsl(293, 100%, 63%);
+    --color-gradient-violet: hsl(264, 100%, 61%);
+
+    --color-white: hsl(0, 0%, 100%);
+    --color-bg: hsl(270, 20%, 96%);
+    --color-bg-worker: hsl(270, 20%, 93%);
+    --color-bg-submit: hsl(271, 36%, 24%);
+    --color-radio-button: hsl(289, 100%, 78%);
+
+    // Font Families
+    --font-family: 'Rubik', sans-serif;
+
+    // Font weights
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    // Font sizes
+    --font-size-text: 1.6rem;
+    --font-size-title: 2.5rem;
+    --font-size-text-message: 0.9rem;
+    --font-size-title-info: 1.2rem;
+}

@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'animations';
+@import 'landing-page';
+@import 'phone';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 62.5%;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: var(--font-size-title);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-heading);
+    margin-bottom: 3.2rem;
+}
+
+h4 {
+    font-size: var(--font-size-title-info);
+    font-weight: var(--font-weight-medium);
+}
+
+p {
+    font-size: var(--font-size-text-message);
+    font-weight: var(--font-weight-regular);
+}
